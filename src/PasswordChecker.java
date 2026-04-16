@@ -89,7 +89,7 @@ public class PasswordChecker {
      */
     private Set<String> getDefaultBannedPasswords() {
         return new HashSet<>(Arrays.asList(
-            "password123", "123456", "qwerty", "letmein", "password", "hello"
+            "password123", "123456", "qwerty", "letmein", "password", "hello", ""
         ));
     }
 }
